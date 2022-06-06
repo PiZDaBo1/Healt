@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "341873928816",
+    "firebase_url": "https://healt-c0c0d-default-rtdb.firebaseio.com",
+    "project_id": "healt-c0c0d",
+    "storage_bucket": "healt-c0c0d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:341873928816:android:f148d05771c86f8ff8e2b5",
+        "android_client_info": {
+          "package_name": "com.example.healt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "341873928816-ba9iihjgu5uc1tt4dkaopon5fq12r2e3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXvY3O0F-xkNTPqpFSOkQYThMvytBBM5Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "341873928816-ba9iihjgu5uc1tt4dkaopon5fq12r2e3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
