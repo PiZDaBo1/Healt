@@ -1,10 +1,14 @@
 package com.example.healt.ui.notifications;
 
+import static androidx.core.provider.FontsContractCompat.Columns.RESULT_CODE_OK;
+
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -14,6 +18,7 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.example.healt.Launch;
 import com.example.healt.Login;
+import com.example.healt.R;
 import com.example.healt.Save;
 import com.example.healt.databinding.FragmentNotificationsBinding;
 import com.google.firebase.auth.FirebaseAuth;
@@ -22,6 +27,8 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+
+import java.util.HashMap;
 
 public class NotificationsFragment extends Fragment {
 
@@ -46,17 +53,12 @@ public class NotificationsFragment extends Fragment {
         DatabaseReference database = FirebaseDatabase.getInstance().getReference("users");
         String currentUserID = auth.getCurrentUser ().getUid ();
 
-
         database.child(currentUserID).addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                String username = snapshot.child("name").getValue().toString();
-//               String growth = snapshot.child("Growth").getValue().toString();
-//               String height = snapshot.child("Height").getValue().toString();
-
                binding.username.setText(username);
-//               binding.rost.setText(growth);
-//               binding.ves.setText(height);
+
             }
 
             @Override
@@ -68,11 +70,10 @@ public class NotificationsFragment extends Fragment {
         binding.save.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                database.child(currentUserID).push().setValue(new Save(
-                        binding.username.getText().toString(),
-                        binding.rost.getText().toString(),
-                        binding.ves.getText().toString()
-                ));
+                HashMap<String, Object> profile = new HashMap<>();
+                profile.put("name",binding.username.getText().toString());
+                database.child(auth.getCurrentUser().getUid()).setValue(profile);
+
             }
         });
 
@@ -85,15 +86,30 @@ public class NotificationsFragment extends Fragment {
             }
         });
 
-
-
+        binding.image.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent gallery =new Intent ().setAction (Intent.ACTION_GET_CONTENT).setType ("image/*");
+                getActivity ().startActivityForResult (gallery,1);
+            }
+        });
 
     }
-
 
     @Override
     public void onDestroyView() {
         super.onDestroyView();
         binding = null;
     }
+
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (resultCode == RESULT_CODE_OK && data != null){
+            Uri uri = data.getData();
+            ImageView userImage = getView().findViewById(R.id.image);
+            userImage.setImageURI(uri);
+        }
+    }
+
 }
