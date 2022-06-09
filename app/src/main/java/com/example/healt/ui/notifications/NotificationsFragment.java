@@ -2,9 +2,11 @@ package com.example.healt.ui.notifications;
 
 import static androidx.core.provider.FontsContractCompat.Columns.RESULT_CODE_OK;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -28,7 +30,9 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
+import java.io.IOException;
 import java.util.HashMap;
+import java.util.Objects;
 
 public class NotificationsFragment extends Fragment {
 
@@ -90,7 +94,8 @@ public class NotificationsFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 Intent gallery =new Intent ().setAction (Intent.ACTION_GET_CONTENT).setType ("image/*");
-                getActivity ().startActivityForResult (gallery,1);
+                Activity temp = getActivity();
+                    temp.startActivityForResult(gallery,1);
             }
         });
 
@@ -104,9 +109,11 @@ public class NotificationsFragment extends Fragment {
 
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
+        this.onActivityResult(requestCode, resultCode, data);
         if (resultCode == RESULT_CODE_OK && data != null){
             Uri uri = data.getData();
+            Log.d("kek", "uri path contains = " + uri.getPath());
+            Log.d("kek", "uri string contains = " + uri.toString());
             ImageView userImage = getView().findViewById(R.id.image);
             userImage.setImageURI(uri);
         }
