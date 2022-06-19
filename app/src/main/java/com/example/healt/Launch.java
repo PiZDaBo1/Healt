@@ -27,7 +27,7 @@ public class Launch extends AppCompatActivity {
 
         TextView text = findViewById(R.id.textView);
         down = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.down);
-        text.setAnimation(up);
+        text.setAnimation(down);
 
         ImageView image = findViewById(R.id.imageView);
         up = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.up);
