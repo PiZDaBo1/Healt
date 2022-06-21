@@ -47,7 +47,7 @@ public class Launch extends AppCompatActivity {
             }
         },1*2500);
 
-        
+        getSupportActionBar().hide();
 
         Window w =getWindow();
         w.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);

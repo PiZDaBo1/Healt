@@ -1,64 +1,51 @@
 <resources>
     <string name="app_name">Healt</string>
     <string name="title_home">Сводка</string>
-    <string name="title_dashboard">Обзор</string>
     <string name="title_notifications">Настройки</string>
 
-    <string name="pose1">    Step 1:- Start in the push-up position with your arms completely straight and directly beneath your shoulders.\n\n
-                             Step 2:- Your body should form a straight line from your shoulders to your ankles. \n\n
-                             Step 3:- Squeeze your abs, lift one foot off the floor and bring your knee up towards your chest while keeping your body in as straight of a line as possible. \n\n
-                             Step 4:- Return to the starting position and repeat the movement with your opposite leg..
-    </string>
-    <string name="pose2">    Step 1:- Lie flat on your mat with knees bent and feet on the mat. Hands at the base ofyour head and elbows pointed out. Using your abdominals bring your head and shoulders off the mat and come up into a crunch, then lower with control. </string>
-    <string name="pose3">    Step 1:- This movement is performed with a bench and a foot stool.\n\n
-                             Step 2:- Place a bench behind yourself and rest on it with your hands. Place your legs straight out in front of you. You may also place them at an elevated level as shown above.\n\n
-                             Step 3:- Begin with arms in a fully. Slowly bend at your elbows keeping the rest of your body straight. Be sure to keep your elbows back and close together.\n\n
-                             Step 4:- Dip down until your arms form a 90 degree angle and you feel a stretch in the triceps.\n\n
-                             Step 5:- Slowly extend your arms raising your body back up. Pause and contract your triceps muscles at the top. Pause and repeat the movement.</string>
-    <string name="pose4">    Step 1:- Lie flat on the floor with your lower back pressed to the ground (pull your navel in to also target your deep abs). \n\n
-                             Step 2:- Put your hands behind your head, then bring your knees in towards your Chest and lift your shoulder blades off the ground, but be sure not to pull on your neck.\n\n
-                             Step 3:-Straighten your right leg out to about a 4S-degree angle to the ground while turning your upper body to the left, bringing your right elbow towards the left knee.\n\n
-                             Step 4:- Make sure your rib cage is moving and hotjust your elbows. Now switch sides and do the same motion on the other side to complete onerep. </string>
-    <string name="pose5">   Step 1:- Lay down with your hands to your sides for support. \n\n
-                             Step 2:- Raise your legs so they are off the ground, keeping the abdominals tight.\n\n
-                             Step 3:- Slowly raise your legs 90 degrees, contracting the abdominal muscles. Slowly return to starting position. Do not touch the floor with your feet.\n\n
+    <string name="pose1">    	Шаг 1: - Начните с положения отжимания, держа руки полностью прямыми и прямо под плечами.\n\n
+ 			     	Шаг 2: - Ваше тело должно образовывать прямую линию от плеч до лодыжек. \n\n
+ 			     	Шаг 3: - Напрягите пресс, оторвите одну ногу от пола и подтяните колено к груди, сохраняя при этом максимально прямую линию тела. \n\n
+ 			     	Шаг 4: - Вернитесь в исходное положение и повторите движение противоположной ногой.. </string>
+    <string name="pose2">    	Шаг 1: - Лягте плашмя на коврик, согнув колени и поставив ступни на коврик. Руки у основания головы, локти направлены вперед. Используя мышцы брюшного пресса, оторвите голову и плечи от коврика и сделайте хруст, затем опустите с контролем. </string>
+    <string name="pose3">    	Шаг 1: - Это движение выполняется со скамейкой и табуреткой для ног.\n\n
+ 				Шаг 2: - Поставьте скамейку позади себя и обопритесь на нее руками. Вытяните ноги прямо перед собой. Вы также можете разместить их на повышенном уровне, как показано выше.\n\n
+ 				Шаг 3: - Начните с вытягивания рук полностью. Медленно согните руки в локтях, сохраняя остальную часть тела прямой. Обязательно держите локти отведенными назад и близко друг к другу.\n\n
+			 	Шаг 4: - Опускайтесь вниз, пока ваши руки не сформируют угол в 90 градусов и вы не почувствуете растяжение в трицепсах. \n\n
+ 				Шаг 5: - Медленно вытяните руки, поднимая туловище обратно вверх. Сделайте паузу и напрягите мышцы трицепса в верхней части. Сделайте паузу и повторите движение.</string>
+    <string name="pose4">    	Шаг 1: - Лягте ровно на пол, прижав нижнюю часть спины к земле (втяните пупок, чтобы также нацелиться на глубокий пресс). \n\n
+ 				Шаг 2: - Заведите руки за голову, затем подтяните колени к груди и оторвите лопатки от земли, но следите за тем, чтобы не тянуть шею.\n\n
+ 				Шаг 3: - Выпрямите правую ногу примерно под углом 4 градуса к земле, одновременно поворачивая верхнюю часть тела влево, подтягивая правый локоть к левому колену.\n\n
+ 				Шаг 4: - Убедитесь, что ваша грудная клетка движется, и согните локти. Теперь переключитесь на другую сторону и проделайте то же движение с другой стороны, чтобы завершить один шаг. </string>
+    <string name="pose5">   	Шаг 1: - Лягте, прижав руки к бокам для поддержки. \n\n
+ 				Шаг 2: - Поднимите ноги так, чтобы они оторвались от земли, сохраняя брюшной пресс напряженным.\n\n
+ 				Шаг 3: - Медленно поднимите ноги на 90 градусов, напрягая мышцы живота. Медленно вернитесь в исходное положение. Не касайтесь пола ногами.\n\n
                             </string>
 
 
-    <string name="pose6">    Step 1:- Lie on your back on an exercise mat. With your arms straight at your sides, bend your knees and place your feet flat on the floor between18 and 24 inches apart.\n\n
-                             Step 2:- Breathing out, crunch your ab slightly upward and sideways to the right a couple of inches until your right hand touches your right heel.\n\n
-                             Step 3:- Hold brief|y and then return to your starting position while inhaling. Repeat on the left side. </string>
-    <string name="pose7">    Step 1:- You can perform straight-leg crunches by lying face up on the floor with your legs straight and then moving your upper body as you would for a standard bent-knee crunch.\n\n
-                             Step 2:- Alternatively, lie on your back, raise your legs so they are perpendicular to the floor and then perform the standard crunching motion with your torso.
+    <string name="pose6">    	Шаг 1: - Лягте на спину на коврик для упражнений. Вытянув руки вдоль туловища, согните ноги в коленях и поставьте ступни на пол на расстоянии от 18 до 24 дюймов друг от друга.\n\n
+ 				Шаг 2: - Выдыхая, слегка поднимите пресс вверх и в сторону вправо на пару дюймов, пока ваша правая рука не коснется правой пятки.\n\n
+ 				Шаг 3: - Задержитесь ненадолго на вдохе, а затем вернитесь в исходное положение. Повторите с левой стороны. </string>
+    <string name="pose7">    	Шаг 1: - Вы можете выполнять хруст прямыми ногами, лежа лицом вверх на полу с прямыми ногами, а затем двигая верхней частью тела, как при стандартном хрусте согнутыми коленями.\n\n
+ 				Шаг 2: - В качестве альтернативы лягте на спину, поднимите ноги так, чтобы они были перпендикулярны полу, а затем выполните стандартное похрустывающее движение туловищем.
                              </string>
-    <string name="pose8">    Step 1:- Lie down on the floor placing your feet either under something that Will not move or by having a partner hold them. Your legs should be bent at the kneesPlace your hands behind your head and lock them together by claspihg your fingers. This is the starting position.\n\n
-                             Step 2:- Elevate your upper body so that it creates an imaginary V-shape with your thighs. Breathe out when performing this part of the exercise.\n\n
-                             Step 3:- Once you feel the contraction for a second, lower your upper body back down to the starting position while inhahng. \n\n
-                             Step 4:- Repeat for the recommended amount of repetitions.
+    <string name="pose8">    	Шаг 1: - Лягте на пол, подложив ноги либо под что-то, что не будет двигаться, либо попросив партнера придержать их. Ваши ноги должны быть согнуты в коленях, заведите руки за голову и соедините их вместе, сцепив пальцы. Это исходное положение.\n\n
+ 				Шаг 2: - Приподнимите верхнюю часть тела так, чтобы бедра образовали воображаемую V-образную форму. Выдыхайте при выполнении этой части упражнения.\n\n
+ 				Шаг 3: - Как только вы почувствуете сокращение на секунду, опустите верхнюю часть тела обратно в исходное положение на вдохе. \n\n
+ 				Шаг 4: - Повторите рекомендуемое количество повторений.
                             </string>
-    <string name="pose9">    Step 1:- Lying on the back,lift stright leg,extend opposite hand to touch toe. \n\n
-                             Step 2:- Please,return,alternate inhale down,exhale up at toe touch.
+    <string name="pose9">    	Шаг 1: - Лежа на спине, поднимите правую ногу, вытяните противоположную руку, чтобы коснуться носка. \n\n
+				Шаг 2: - Пожалуйста, вернитесь, попеременно вдыхайте вниз, выдыхайте вверх при касании пальцами ног.
                             </string>
-    <string name="pose10">    Step 1:- High Plank position then slowly rotate your torso to the side raising your arm till it gets ihlihe with the other one. \n\n
-                             Step 2:- Then return to the initial position.
+    <string name="pose10">    	Шаг 1: - Положение на высокой доске, затем медленно поворачивайте туловище в сторону, поднимая руку, пока она не соприкоснется с другой. \n\n
+ 				Шаг 2: - Затем вернитесь в исходное положение.
                             </string>
-    <string name="pose11">    Step 1:- Lie on the floor with elbows directly beneath your shoulders and legs fully extended.\n\n
-                             Step 2:- Raise your torso into the air until it makes a straight line from your shoulders to your ankles. Tighten your stomach, squeeze your butt.
+    <string name="pose11">    	Шаг 1: - Лягте на пол, поставив локти прямо под плечи и полностью вытянув ноги.\n\n
+ 				Шаг 2: - Поднимите туловище в воздух, пока оно не образует прямую линию от плеч до лодыжек. Напрягите живот, сожмите ягодицы.
                             </string>
-    <string name="pose12">    Step 1:- Lie down on the floor placing your feet either under something that will not move or by having a partner hold them. Your legs should be bent at the knees. Elevate your upper body so that it creates an imaginary V-shape with your thighs. \n\n
-                             Step 2:- Your arms should be fully extended in front of you perpendicular to your torso and with the hands clasped. This is the starting position.\n\n
-                             Step 3:- This is the starting position. Twist your torso to the right side until your arms are parallel with the floor while breathing out. \n\n
-                             Step 4:- Hold the contraction for a second and move back to the starting position while breathing out. Now move to the opposite side performing the same techniques you applied to the right side. Repeat for the recommended amount of repetitions.
+    <string name="pose12">    	Шаг 1: - Лягте на пол, подложив ноги либо под что-то, что не будет двигаться, либо попросив партнера придержать их. Ваши ноги должны быть согнуты в коленях. Приподнимите верхнюю часть тела так, чтобы бедра образовали воображаемую V-образную форму. \n\n
+ 				Шаг 2: - Ваши руки должны быть полностью вытянуты перед вами перпендикулярно туловищу и сцеплены ладонями. Это исходное положение.\n\n
+ 				Шаг 3: - Это исходное положение. На выдохе поверните туловище в правую сторону, пока ваши руки не будут параллельны полу. \n\n
+ 				Шаг 4: - Задержите сокращение на секунду и вернитесь в исходное положение на выдохе. Теперь перейдите на противоположную сторону, выполняя те же приемы, которые вы применили к правой стороне. Повторите рекомендуемое количество повторений.
                             </string>
-    <string name="pose13">    Step 1:- Lie on your back with your knees bent, feet flat and hip width. \n\n
-                             Step 2:- Lower your pelvis 2 inches from the floor. Squeeze your glutes and lift your pelvis back to bridge position.
-
-                            </string>
-    <string name="pose14">    Step 1:- Lie facedown on the floor with your arms extended in front of you and your leg extended behind you. \n\n
-                             Step 2:- In one movement,engage your glutes and lower back to raise your arms,legs,and chest off the floor.\n\n
-                             Step 3:- Hold for a count,then slowly return to the starting position.
-                            </string>
-    <string name="pose15">   Step 1:- Stand, extend arms 90° to sides, bend forward 90° at waist.\n\n
-                             Step 2:- Looking at the floor, rotate torso to touch hand to foot, rotate for other hand. \n\n
-                             Step 3:- Head will follow chest action. </string>
 </resources>

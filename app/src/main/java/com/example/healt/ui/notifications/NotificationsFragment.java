@@ -53,9 +53,12 @@ public class NotificationsFragment extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
 
+
         FirebaseAuth auth = FirebaseAuth.getInstance();
         DatabaseReference database = FirebaseDatabase.getInstance().getReference("users");
         String currentUserID = auth.getCurrentUser ().getUid ();
+
+
 
         database.child(currentUserID).addValueEventListener(new ValueEventListener() {
             @Override
@@ -118,5 +121,6 @@ public class NotificationsFragment extends Fragment {
             userImage.setImageURI(uri);
         }
     }
+
 
 }
