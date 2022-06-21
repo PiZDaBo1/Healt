@@ -118,7 +118,7 @@
 
                     <LinearLayout
                         android:onClick="ImageBattonCliked"
-                        android:id="@+id/bridj_pose"
+                        android:id="@+id/boat_pose2"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
@@ -202,7 +202,7 @@
 
                     <LinearLayout
                         android:onClick="ImageBattonCliked"
-                        android:id="@+id/bow_pose"
+                        android:id="@+id/boat_pose3"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
@@ -286,7 +286,7 @@
 
                     <LinearLayout
                         android:onClick="ImageBattonCliked"
-                        android:id="@+id/chear_pose"
+                        android:id="@+id/boat_pose4"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="10.0dp"
@@ -1004,7 +1004,7 @@
                             <pl.droidsonroids.gif.GifImageView
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/exersice_13" />
+                                android:src="@drawable/exersice_12" />
 
                         </LinearLayout>
 
